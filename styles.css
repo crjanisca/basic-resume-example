@@ -31,6 +31,7 @@ nav ul li {
     border-radius: 5px;
     padding-right: 4px;
     padding-left: 4px;
+    box-shadow: 2px 2px 5px #292929;
 }
 
 nav a {
@@ -41,6 +42,10 @@ nav a {
 
 nav ul li:hover {
     background-color: #b7b7b7;
+}
+
+nav ul li:active {
+    background-color: #000;
 }
 
 .linktree {
